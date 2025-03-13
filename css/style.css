@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+· { padding: 0;  
+margin: 0; 
+box-sizing: border-box} 
+header, nav, footer, main{  
+    width: 100%;  
+    background-color:darkgrey; 
+    color: midnightblue;     
+    padding: 30px; 
+        margin-left:auto; 
+        margin-right: auto; 
+} 
+nav{ height: auto;  
+ background-color: midnightblue; 
+} 
+nav ul{ text-align: center; 
+} 
+nav ul li { width: 7%; 
+    min-width: 100px; 
+    list-style-type: none;  
+ background-color:steelblue; 
+    color: firebrick; 
+    display: inline-block; 
+     margin-left:10px; 
+     margin-right: 10px; 
+    padding: 10px; 
+    text-align: center; 
+    border-radius: 20px; 
+    margin-top: 20px
+} 
+header {  
+    height: 150px
+} 
+header h1 {  
+    font-family: "Playfair Display", serif, bold; 
+    letter-spacing: 7px;
+    color: dimgray;
+    font-size: 60px
+} 
+ nav ulk li a:link, nav ul lia:visited {  
+     color: white; 
+     text-decoration: none; 
+} 
+nav ul li a:hover{ color: beige; 
+     ; 
+} 
+nav ul li :hover{ color: palevioletred; 
+     background-color: mediumvioletred; 
+    width: 95px; 
+    font-size: 18px 
+} 
+main{  
+     background-color: snow; 
+    height: auto;  
+} 
+footer{ text-align: center; 
+    background-color: dimgray;
+    color: lightgray
+} 
+section {  
+    width: 80%; 
+    height: auto; 
+    background-color:lightgrey; 
+    padding: 30px; 
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    overflow-x: auto 
+} 
+ p {  
+     font-family: "Poppins", sans-serif;
+} 
+h2, p {  
+    margin-bottom: 30px;
+    
+} 
+h2 { font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    color: darkblue; 
+} 
+#tabla_1{  
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+} 
+#tabla_1 th, #tabla_1 td, #tabla_2 th, #tabla_2 td, #tabla_3 th, #tabla_3 td 
+{  
+ padding-left: 10px; 
+    padding-bottom:5px ; 
+    padding-right:10px; 
+    padding-top: 5px 
+} 
+#tabla_1 th,#tabla_2 th, #tabla_3 th {  
+  background-color:midnightblue 
+} 
+#tabla_1 th,#tabla_2 th, #tabla_3 th {  
+  color:aliceblue 
+} 
+#tabla_1 td{  
+  background-color:skyblue 
+} 
+#tabla_2{  
+    width: 100%; 
+    border-style: solid; 
+    border-color: darkblue; 
+    border:5px; solid; yellow 
+    border-collapse: collapse; 
+} 
+#tabla_2 tbody tr:nth-child(even){  
+  background-color: gainsboro; 
+} 
+#tabla_2 tbody tr:nth-child(odd){  
+  background-color: lightblue; 
+} 
+#tabla_3{  
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: darkgrey 
+} 
+#tabla_3 td:hover{  
+   background-color: hotpink; 
+    color: firebrick; 
+} 
+#tabla_3 th{  
+   height: 60px; 
+} 
+#tabla_3 th, #tabla_3 td{  
+   border: 2px solid midnightblue ; 
+    border-collapse: collapse; 
+} 
+#tabla_3 tr{  
+   height: 50px; 
+    padding-left: 10px 
+} 
+h1, h6{  
+   text-align: center; 
+    font-size: 48px 
+} 
+h6{  
+ 
+    font-size: 18px} 
+.img_1 {  
+   width: 50%; 
+    margin-left:auto; 
+    margin-right:auto ; 
+    display: block;
+    display: inline-block;
+} 
+.img_izquierda{  
+   width:7%;  
+    float: left;
+    margin-left:70px; 
+} 
+.img_izq{  
+   width:20%; 
+   float: left; 
+    margin-right:20px; 
+    margin-top: 10px
+} 
+.imagen_flotante_der{  
+   width: 20%; 
+    float: right; 
+    margin-left:20px ; 
+} 
+.fondo{ color:beige; 
+   background-image:url("../images/fondo.png"); 
+   background-size: cover 
+} 
+.icono {  
+   width: 64px; 
+   height: auto; 
+   margin-right:0; 
+   margin-left: auto 
+} 
+.texto {  
+   color: aliceblue
+       }
+.section-filtros {  
+   color: darkgrey;
+    text-align: center;
+       }
+.section-filtros img{  
+   width: 25%;
+   display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px; }
+    
+form{  
+   width: 40%;
+    height: auto;
+    padding: 50px;
+    background-color: midnightblue;
+ border-radius: 30px;
+    margin-right:auto ;
+    margin-left: auto
+       }
+
+label{  
+  color: beige;
+    font-weight: bold;
+    margin-bottom: 30px;
+       }
+
+input[type=text],input[type=password], select{  
+  width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+background-color: lightblue;
+color: midnightblue;
+border: 3px solid darkturquoise ;}
+
+input[type=submit]{  
+    width: 20%;
+    min-width: 100px;
+    margin-right:auto ;
+    margin-left: auto;
+    display: block;
+    background-color:darkturquoise;
+    color:midnightblue;
+    border: 3px solid midnightblue;
+    border-radius: 50px;
+       }
+input[type=text]: focus,input[type=password]:focus, select{  
+    color: deepskyblue;
+    background-color: white;
+    
+       }
+input[type=mail]:{
+  width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+background-color: red;
+color: midnightblue;
+border: 3px solid darkturquoise ;}
+

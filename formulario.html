@@ -1,0 +1,125 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+   <title>Formulario en HTML</title>
+ <link rel="stylesheet" type="text/css" 
+href="css/style.css">
+    
+    </head> 
+ <body> 
+<header> 
+  <a href="index.html"><img class="img_izquierda" src="images/icon1.png"></a><h1>Formulario</h1> 
+</header> 
+     <nav> 
+     <ul> 
+          <li> <a href="formatos.html">Formatos </a> </li> 
+          <li> <a href="listas.html">Listas </a> </li> 
+          <li> <a href="enlaces.html">Enlaces </a> </li> 
+          <li> <a href="tablas.html">Tablas </a> </li> 
+          <li> <a href="imagenes.html">Imagenes </a> </li>
+          <li> <a href="audio.html">Audios</a> </li> 
+          <li> <a href="video.html">Video </a> </li> 
+          <li> <a href="formulario.html">Formulario</a> 
+</li> 
+         </ul> 
+     </nav> 
+     <main> 
+         
+     <section>
+         <h2>Formulario</h2> 
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> 
+         <form action="" method="get">
+             <label for="nombre">Nombre:</label>
+             <input type="text" id="nombre" name="nombre" value="">
+             <label for="contrasena">Contraseña:</label>
+             <input type="password" id="contrasena" name="contrasena" value="">
+              <input type="submit" value="Enviar">
+         </form>
+     </section> 
+        
+         
+    <section>
+         <h2>Formulario</h2> 
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> 
+         <form action="" method="get">
+             <label for="nombre-1">Nombre:</label>
+             <input type="text" id="nombre_1" name="nombre_1" value="">
+             
+             <label for="genero">Genero</label><br>
+              <input type="radio" id="masculino" name="genero" value="masculino">
+              <label for="masculino">Masculino</label>
+             <input type="radio" id="femenino" name="genero" value="femenino">
+              <label for="femenino">Femenino</label>
+             <br> <br>
+             <label for="pais">¿De que país nos visitas?</label><br>
+             <select id="pais" name="pais">
+                 <option value="ar"> Argentina </option>
+                 <option value="co"> Colombia </option>
+                 <option value="ec"> Ecuador </option>
+                 <option value="it"> Italia </option>
+                 <option value="mx"> México </option>
+                 <option value="pa"> Panamá </option>
+             </select><br>
+              <label for="idioma">¿Qué idioma hablas?</label><br>
+             <input type="checkbox" id="idioma1" name="idioma1" value="ingles">
+             <label for="idioma1">Ingles</label>
+             <input type="checkbox" id="idioma2" name="idioma2" value="Frances">
+             <label for="idioma2">Frances</label>
+             <input type="checkbox" id="idioma3" name="idioma3" value="Espanol">
+             <label for="idioma3">Español</label><br><br>
+             <input type="submit" value="Enviar">
+         </form>
+     </section> 
+         
+         
+    <section>
+         <h2>Formulario</h2> 
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> 
+         <p>A common form that includes input tags</p>
+<form action="getform.php" method="get">
+  <label>Destinatario: <input type="text" /></label><br><br>
+  <label>Asunto: <input type="text" /></label><br><br>
+  <label>Mensaje: <input type="mail" /></label><br><br>
+  <input type="submit" value="Enviar">
+</form>
+     </section> 
+    
+         
+    <section>
+         <h2>Formulario</h2> 
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> 
+    
+             <form action="" method="get">
+             <label for="nombre">Usuario:</label>
+             <input type="text" id="nombre" name="nombre" value="">
+             <label for="contrasena">Contraseña:</label>
+             <input type="password" id="contrasena" name="contrasena" value="">
+                 
+             <label for="genero">Genero</label><br>
+             <input type="radio" id="masculino" name="genero" value="masculino">
+             <label for="masculino">Masculino</label>
+             <input type="radio" id="femenino" name="genero" value="femenino">
+             <label for="femenino">Femenino</label><br><br>
+                 
+                 <label for="pais">¿Cual es tu Municipio?</label><br>
+             <select id="pais" name="pais">
+                 <option value="ar"> San Andres </option>
+                 <option value="co"> Acatzingo </option>
+                 <option value="ec"> San pedro Cholula </option>
+                 <option value="it"> Acajete </option>
+            
+             </select><br>
+                 
+             <input type="checkbox" id="verificacion" name="1" value="">
+             <label for="vehicle1"> Verificación no soy un robot</label><br><br>
+  
+                 <input type="submit" value="Enviar">
+</form>
+     </section> 
+         
+    </main> 
+     <footer> 
+        Elaborado por Brenda Karen Cielo Anselmo  
+     </footer> 
+    </body> 
+</html>
